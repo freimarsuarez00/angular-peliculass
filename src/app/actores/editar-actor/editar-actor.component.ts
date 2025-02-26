@@ -20,6 +20,6 @@ export class EditarActorComponent {
     @Input({transform: numberAttribute})
     id!: number;
 
-    formularioActores = FormularioActoresComponent;
+    formularioActores = FormularioActoresComponent; 
 
 }
